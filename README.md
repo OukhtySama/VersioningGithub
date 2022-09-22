@@ -12,7 +12,7 @@
 - git add .
 - git commit -m "update"
 - git push -u origin main
-- si la modification ne se fait pas il faut rajouter l'url "git remote add origin git@github.com:OukhtySama/VersioningGithub.git"
+- sigit  la modification ne se fait pas il faut rajouter l'url "git remote add origin git@github.com:OukhtySama/VersioningGithub.git"
 
 # Clonage 
 - git clone https://github.com/OukhtySama/VersioningGithub.git
@@ -21,6 +21,13 @@
 - touch test.txt(nom fichier) : touch permet de créer un fichier 
 - git add .
 - git commit -m "Update" ( il faut commit le plus souvent possible  1 tache un commit)
-- git re --cached test.txt (nom fichier)
+- git rm --cached test.txt (nom fichier)
 - git add .
 - git status
+- git reset HEAD test.txt : pointer le plus proche 
+- git log : permet de lister tous les commit et de voir les ID
+- git log --pretty=oneline :permet d'afficher le commit sur lequel on travail
+- git mv <nom du fichier> <nouveau nom du fichier>
+
+# Branche 
+- git branch -d <nom de la branch> : permet de supprimer la branche 
