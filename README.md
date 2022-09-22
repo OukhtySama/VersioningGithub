@@ -13,3 +13,9 @@
 - git commit -m "update"
 - git push -u origin main
 - si la modification ne se fait pas il faut rajouter l'url "git remote add origin git@github.com:OukhtySama/VersioningGithub.git"
+
+# Clonage 
+- git clone https://github.com/OukhtySama/VersioningGithub.git
+
+# Gestion fichier
+- touch test.txt : touch permet de créer un fichier 
