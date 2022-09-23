@@ -22,6 +22,7 @@
 - git add .
 - git commit -m "Update" ( il faut commit le plus souvent possible  1 tache un commit)
 - git rm --cached test.txt (nom fichier)
+- git rm -f salem.txt : permet de supprimer le fichier
 - git add .
 - git status
 - git reset HEAD test.txt : pointer le plus proche 
